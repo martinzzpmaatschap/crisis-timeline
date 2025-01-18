@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historische Financiële Crisissen Timeline</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom styles -->
+    <style>
+        .timeline-dot {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: #3b82f6;
+            border-radius: 50%;
+            left: -22px;
+            top: 6px;
+        }
+        .timeline-line {
+            position: absolute;
+            width: 2px;
+            background-color: #e5e7eb;
+            top: 0;
+            bottom: 0;
+            left: -16px;
+        }
+        .hover-effect:hover {
+            transform: translateX(5px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+            <h1 class="text-3xl font-bold text-center mb-4 text-gray-800">
+                Historische Financiële Crisissen
+            </h1>
+            <p class="text-gray-600 text-center mb-8">
+                Een chronologisch overzicht van belangrijke financiële crisissen door de geschiedenis heen
+            </p>
+
+            <!-- Timeline Container -->
+            <div class="space-y-12">
+                <!-- 17e & 18e Eeuw -->
+                <div class="relative">
+                    <h2 class="text-xl font-bold mb-4 bg-blue-50 p-3 rounded-lg text-blue-800">
+                        17e & 18e Eeuw
+                    </h2>
+                    <div class="relative ml-4">
+                        <div class="timeline-line"></div>
+                        <div class="space-y-6">
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1637</h3>
+                                <p class="text-gray-600">Tulpenmanie in Nederland</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1720</h3>
+                                <p class="text-gray-600">South Sea Bubble & Mississippi Bubble</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1763</h3>
+                                <p class="text-gray-600">Instorting bank in Amsterdam</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1772</h3>
+                                <p class="text-gray-600">Faillissement banken Londen & Amsterdam</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1783-1788</h3>
+                                <p class="text-gray-600">Franse financiële crisis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 19e Eeuw -->
+                <div class="relative">
+                    <h2 class="text-xl font-bold mb-4 bg-green-50 p-3 rounded-lg text-green-800">
+                        19e Eeuw
+                    </h2>
+                    <div class="relative ml-4">
+                        <div class="timeline-line"></div>
+                        <div class="space-y-6">
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1825</h3>
+                                <p class="text-gray-600">Britse economische recessie</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1837</h3>
+                                <p class="text-gray-600">Amerikaanse depressie</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1857</h3>
+                                <p class="text-gray-600">Amerikaanse economische recessie</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1873</h3>
+                                <p class="text-gray-600">Lange Depressie</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1890</h3>
+                                <p class="text-gray-600">Baring Crisis</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1893</h3>
+                                <p class="text-gray-600">Amerikaanse recessie & Australische bankencrisis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1900-1950 -->
+                <div class="relative">
+                    <h2 class="text-xl font-bold mb-4 bg-purple-50 p-3 rounded-lg text-purple-800">
+                        1900-1950
+                    </h2>
+                    <div class="relative ml-4">
+                        <div class="timeline-line"></div>
+                        <div class="space-y-6">
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1901</h3>
+                                <p class="text-gray-600">NY Stock Exchange crash</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1907</h3>
+                                <p class="text-gray-600">Amerikaanse economische recessie</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1929</h3>
+                                <p class="text-gray-600">Wall Street Crash & Grote Depressie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1950-2000 -->
+                <div class="relative">
+                    <h2 class="text-xl font-bold mb-4 bg-yellow-50 p-3 rounded-lg text-yellow-800">
+                        1950-2000
+                    </h2>
+                    <div class="relative ml-4">
+                        <div class="timeline-line"></div>
+                        <div class="space-y-6">
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1973</h3>
+                                <p class="text-gray-600">Oliecrisis</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1987</h3>
+                                <p class="text-gray-600">Black Monday</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1990</h3>
+                                <p class="text-gray-600">Japanse zeepbel</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">1997-1998</h3>
+                                <p class="text-gray-600">Aziatische financiële crisis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2000-Heden -->
+                <div class="relative">
+                    <h2 class="text-xl font-bold mb-4 bg-red-50 p-3 rounded-lg text-red-800">
+                        2000-Heden
+                    </h2>
+                    <div class="relative ml-4">
+                        <div class="timeline-line"></div>
+                        <div class="space-y-6">
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">2000-2001</h3>
+                                <p class="text-gray-600">Dot-com bubble</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">2007-2008</h3>
+                                <p class="text-gray-600">Wereldwijde financiële crisis</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">2010</h3>
+                                <p class="text-gray-600">Europese staatsschuldencrisis</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">2014</h3>
+                                <p class="text-gray-600">Russische financiële crisis</p>
+                            </div>
+                            <div class="relative hover-effect">
+                                <div class="timeline-dot"></div>
+                                <h3 class="text-lg font-semibold text-gray-800">2020</h3>
+                                <p class="text-gray-600">Corona crash</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="text-center text-gray-500 text-sm">
+            <p>© 2025 Financiële Crisissen Timeline</p>
+        </div>
+    </div>
+</body>
+</html>
